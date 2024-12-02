@@ -1,0 +1,76 @@
+h1 {
+    color: #00ff00; 
+    font-size: 75px;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    font-family: "Courier New", Courier, monospace; 
+}
+
+body {
+    background-color: #000000; 
+    font-family: "Lucida Console", Monaco, monospace; 
+    color: #00ff00; 
+    text-align: center;
+    margin: 0;
+    animation: glitch-bg 5s infinite; 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    background-color: #002b36;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    color: #00ff00; 
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+li a:hover {
+    color: #ff00ff; 
+    background-color: #000000;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+}
+
+img.social:hover {
+    opacity: 0.5;
+    filter: drop-shadow(0 0 5px #00ff00);
+
+
+div.section {
+    display: block;
+    background-color: #111111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid #00ff00; 
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+    margin: 20px auto;
+    width: 80%;
+}
+
+@keyframes glitch-bg {
+    0%, 100% {
+        background-color: #000000;
+    }
+    20% {
+        background-color: #001100;
+    }
+    40% {
+        background-color: #003300; 
+    }
+    60% {
+        background-color: #000000; 
+    }
+}
+
